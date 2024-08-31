@@ -4,5 +4,10 @@ snap_format=qcow2
 
 qemu-img create -F $backing_format -b bac.$os.qcow2 -f $snap_format $os.qcow2
 
+# Permissions:
+sudo chown libvirt-qemu:kvm $os.qcow2
+sudo chmod 600 $os.qcow2
+
+
 # First 'F' for source format has to be capitalized
-https://github.com/GNS3/gns3-server/issues/1964
+# https://github.com/GNS3/gns3-server/issues/1964
