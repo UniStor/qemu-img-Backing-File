@@ -6,3 +6,7 @@ https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotroll
 - ark: https://web.archive.org/web/20240000000000*/https://dustymabe.com/2015/01/11/qemu-img-backing-files-a-poor-mans-snapshotrollback/
 
 https://kashyapc.fedorapeople.org/virt/lc-2012/snapshots-handout.html
+
+
+# create: size
+https://www.ibm.com/docs/en/linux-on-systems?topic=commands-qemu-image-command
