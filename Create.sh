@@ -1,8 +1,9 @@
 os=win11
+backing_prefix=bac
 backing_format=qcow2
 snap_format=qcow2
 
-qemu-img create -F $backing_format -b bac.$os.qcow2 -f $snap_format $os.qcow2
+qemu-img create -F $backing_format -b $backing_prefix.$os.qcow2 -f $snap_format $os.qcow2
 
 # Permissions:
 sudo chown libvirt-qemu:kvm $os.qcow2
